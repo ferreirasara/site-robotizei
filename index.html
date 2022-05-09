@@ -87,25 +87,21 @@
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
             <h2 class="h5 mb-0">Passo 1</h2>
-            <!-- <span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>21 March, 2019</span> -->
             <p class="text-small mt-2 font-weight-light">Preencher o formulário para contato.</p>
           </li>
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
             <h2 class="h5 mb-0">Passo 2</h2>
-            <!-- <span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>5 April, 2019</span> -->
             <p class="text-small mt-2 font-weight-light">Videochamada para entendermos o problema.</p>
           </li>
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
             <h2 class="h5 mb-0">Passo 3</h2>
-            <!-- <span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>18 August, 2019</span> -->
             <p class="text-small mt-2 font-weight-light">Proposta de solução do problema e orçamento.</p>
           </li>
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
             <h2 class="h5 mb-0">Passo 4</h2>
-            <!-- <span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>10 October, 2019</span> -->
             <p class="text-small mt-2 font-weight-light">Fazer com que o robô faça o teu trabalho.</p>
           </li>
         </ul>
@@ -200,29 +196,33 @@
 
     <!-- Formulário para contato -->
     <div class="divider"></div>
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-      <div class="row align-items-center g-lg-5 py-5">
-        <div class="col-lg-7 text-center text-lg-start">
-          <h1 class="display-4 fw-bold lh-1 mb-3"><i class="bi bi-envelope-paper"></i> Contato</h1>
-          <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each
-            required form group has a validation state that can be triggered by attempting to submit the form without
-            completing it.</p>
-        </div>
-        <div class="col-md-10 mx-auto col-lg-5">
-          <form class="p-4 p-md-5 border rounded-3 bg-light shadow" data-bitwarden-watching="1">
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
-              <label class="form-label" for="floatingEmail">Endereço de email</label>
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold"><i class="bi bi-envelope-paper"></i> Contato</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead">Textinho pra ocupar espaço.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3" data-bs-toggle="modal"
+            data-bs-target="#contactModal">
+            Quero contratar
+          </button>
+          <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="contactModalLabel">Contato</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="ratio ratio-1x1">
+                    <iframe
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSf-qhRTqEmoXO_LfmaAn4TZt0oaWVgXHGouvmTdUz75ZnmukQ/viewform?embedded=true"
+                      frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="form-floating mb-3">
-              <textarea class="form-control" id="floatingText" rows="5"></textarea>
-              <label class="form-label" for="floatingText">Texto</label>
-            </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar</button>
-            <!-- <div class="ratio ratio-1x1">
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-qhRTqEmoXO_LfmaAn4TZt0oaWVgXHGouvmTdUz75ZnmukQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-            </div> -->
-          </form>
+          </div>
         </div>
       </div>
     </div>
