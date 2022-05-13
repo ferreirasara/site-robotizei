@@ -23,7 +23,7 @@
     <nav class="navbar sticky-top justify-content-center navbar-expand-lg navbar-light bg-light shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
-          <img src="./assets/logo.svg" alt="" width="30" height="24">
+          <img src="./assets/logo.svg" width="30" height="24">
           Robotizei
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -48,8 +48,8 @@
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./assets/idea.jpg" class="rounded shadow d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-            width="700" height="500" loading="lazy">
+          <img src="./assets/idea.jpg" class="rounded shadow d-block mx-lg-auto img-fluid" width="700" height="500"
+            loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3"><i class="bi bi-lightbulb"></i> Ideia geral</i></h1>
@@ -71,8 +71,8 @@
             energia e saúde mental são valiosas e não devem ser desperdiçadas em tarefas de robô.</p>
         </div>
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./assets/mission.jpg" class="rounded shadow d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-            width="700" height="500" loading="lazy">
+          <img src="./assets/mission.jpg" class="rounded shadow d-block mx-lg-auto img-fluid" width="700" height="500"
+            loading="lazy">
         </div>
       </div>
     </div>
@@ -81,13 +81,14 @@
     <div class="divider"></div>
     <div class="px-4 py-5 my-5 text-center">
       <h1 class="display-5 fw-bold"><i class="bi bi-signpost-2"></i> Passo a passo com a empresa</h1>
-      <p class="lead">Textinho pra ocupar espaço.</p>
+      <p class="lead">...</p>
       <div class="col-8 mx-auto">
         <ul class="timeline">
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
             <h2 class="h5 mb-0">Passo 1</h2>
-            <p class="text-small mt-2 font-weight-light">Preencher o formulário para contato.</p>
+            <p class="text-small mt-2 font-weight-light">Preencher o <a class="link-info" href="#contact">formulário</a>
+              para contato.</p>
           </li>
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
@@ -97,12 +98,13 @@
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
             <h2 class="h5 mb-0">Passo 3</h2>
-            <p class="text-small mt-2 font-weight-light">Proposta de solução do problema e orçamento.</p>
+            <p class="text-small mt-2 font-weight-light">Proposta de solução do problema e <a class="link-info"
+                href="#values">orçamento</a>.</p>
           </li>
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
             <h2 class="h5 mb-0">Passo 4</h2>
-            <p class="text-small mt-2 font-weight-light">Fazer com que o robô faça o teu trabalho.</p>
+            <p class="text-small mt-2 font-weight-light">Fazer com que o robô faça o teu trabalho 😁🤖</p>
           </li>
         </ul>
       </div>
@@ -112,7 +114,7 @@
     <div class="divider"></div>
     <div class="px-4 py-5 my-5 text-center">
       <h1 class="display-5 fw-bold"><i class="bi bi-trophy"></i> Casos de sucesso</h1>
-      <p class="lead">Textinho pra ocupar espaço.</p>
+      <p class="lead">...</p>
       <div class="col-8 mx-auto">
         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center align-items-center">
           <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
@@ -177,29 +179,52 @@
 
     <!-- Valores -->
     <div class="divider"></div>
-    <div class="container col-xxl-8 px-4 py-5">
+    <div class="container col-xxl-8 px-4 py-5" id="values">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3"><i class="bi bi-cash-coin"></i> Valores</i></h1>
-          <p class="lead">R$ 50 para videochamada, caso a explicação inicial aparente ter uma solução viável para o
-            problema.</p>
-          <p class="lead">Orçamento de soluções a partir de R$100, dependendo da complexidade da solução.</p>
-          <p class="lead">Caso o problema mude após implantação do robô, as próximas modificações gerarão novos
-            orçamentos.</p>
+          <table class="table">
+            <thead>
+              <th scope="col">Serviço</th>
+              <th scope="col">Valor</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Consulta inicial</td>
+                <td>R$ 50</td>
+              </tr>
+              <tr>
+                <td>Solução para problema simples</td>
+                <td>R$ 100</td>
+              </tr>
+              <tr>
+                <td>Solução para problema mais complexo</td>
+                <td>A negociar</td>
+              </tr>
+              <tr>
+                <td>Atualização de solução devido a mudanças do problema</td>
+                <td>A partir de R$ 50</td>
+              </tr>
+              <tr>
+                <td>Correção de bugs</td>
+                <td>A partir de R$ 50</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./assets/payment.jpg" class="rounded shadow d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-            width="700" height="500" loading="lazy">
+          <img src="./assets/payment.jpg" class="rounded shadow d-block mx-lg-auto img-fluid" width="700" height="500"
+            loading="lazy">
         </div>
       </div>
     </div>
 
     <!-- Formulário para contato -->
     <div class="divider"></div>
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-5 my-5 text-center" id="contact">
       <h1 class="display-5 fw-bold"><i class="bi bi-envelope-paper"></i> Contato</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="lead">Textinho pra ocupar espaço.</p>
+        <p class="lead">...</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button type="button" class="btn btn-primary btn-lg px-4 gap-3" data-bs-toggle="modal"
             data-bs-target="#contactModal">
@@ -216,7 +241,7 @@
                 <div class="modal-body">
                   <div class="ratio ratio-1x1">
                     <iframe
-                      src="https://docs.google.com/forms/d/e/1FAIpQLSf-qhRTqEmoXO_LfmaAn4TZt0oaWVgXHGouvmTdUz75ZnmukQ/viewform?embedded=true"
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSfI0nc-DssLgE58jXrFVdvQdu8NDL9_0LRsoX0BqnzlFOFxvg/viewform?embedded=true"
                       frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
                   </div>
                 </div>
@@ -233,14 +258,10 @@
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
         <div class="col-md-4 d-flex align-items-center">
           <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <img src="./assets/logo.svg" alt="" width="30" height="24">
+            <img src="./assets/logo.svg" width="30" height="24">
           </a>
           <span class="text-muted">© 2022 Robotizei</span>
         </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
-        </ul>
       </footer>
     </div>
   </main>
